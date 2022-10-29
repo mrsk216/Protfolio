@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="asset/images/logo.png" type="image/x-icon" />
+    <title>Mr SK || Protfolio</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="asset/css/aos.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="asset/css/custom.css" />
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/c56dc282e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="pre-loader-wapper">
+        <div class="pre-loader">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <header id="home" class="home sticky">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <a class="navbar-brand text-tomato text-uppercase fs-1 fw-bold" href="">Mr SK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-black-white border-color"></i>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav bg-sm-white ms-auto my-2 my-lg-0 px-4 px-lg-0 py-3 py-lg-0">
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="nav-link homeBtn active">Home</div>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="nav-link aboutBtn">About</div>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="nav-link serviceBtn">Service</div>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="nav-link protfolioBtn">Protfolio</div>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="nav-link skillBtn">Skills</div>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="nav-link contactBtn mb-3 mb-lg-0">Contact</div>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <span class="me-2 text-black-white d-inline-block d-lg-none">Theme :</span>
+                            <button class="theme bg-transparent border-0">
+                                <i class="fa-solid fa-sun fs-4 theme-icon"></i>
+                                <i class="fa-solid fa-moon fs-4 theme-icon d-none"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div>
+                        <h5 class="text-uppercase text-center text-md-start fw-bold">I'm Shekh Md Mohsin</h5>
+                        <div class="hero-title">
+                            <div class="d-flex justify-content-center justify-content-md-start">
+                                <p id="word"></p>
+                                <p class="blink">|</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-white-50 text-center text-md-start">
+                        I am a website designer and developer from Bangladesh, with a strong focus in UI/UX design. I love to get new experiences and always learn from my surroundings. You can check it through portfolio section on this website.
+                    </p>
+                    <p class="text-white-50 text-center text-md-start">
+                        I looking forward to any opportunities and challenges.
+                    </p>
+                    <div class="d-flex justify-content-center justify-content-md-start">
+                        <a href="#contact" class="contactBtn btn btn-tomato mt-3">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-12 col-lg-4 col-xl-6 h-100 d-none d-lg-flex justify-content-center align-items-center border-end border-color overflow-hidden">
+                    <div class="mySwiperImg w-100">
+                        <div class="aboutImage-startToend-hide">
+                            <div class="creator-img">
+                                <img src="asset/images/mrsk_about.png" class="w-100 h-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 col-xl-6 px-3 px-lg-5 overflow-hidden">
+                    <div class="about-content aboutText-startToend-hide" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="mb-lg-5 pb-3">
+                            <h2 class="text-uppercase text-black-white about-name">Shekh Md Mohsin</h2>
+                            <h4 class="text-black-white about-little-title">
+                                A Professional <span class="text-tomato">web Developer</span> based in <span class="text-tomato">Bangladesh</span>
+                            </h4>
+                            <p class="text-black-white-50">
+                                I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions. Check
+                                out my
+                                <a href="#portfolio">Portfolio</a>
+                            </p>
+                        </div>
+                        <ul class="row mt-5 mb-3 p-0">
+                            <li class="col-12 col-md-6 d-flex justify-content-start mb-3">
+                                <span class="border-end border-tomato pe-3 me-2"><i class="fa-solid fa-user text-black-white-50"></i></span>
+                                <span>23 Years Old</span>
+                            </li>
+                            <li class="col-12 col-md-6 d-flex justify-content-start mb-3">
+                                <span class="border-end border-tomato pe-3 me-2"><i class="fa-solid fa-location-dot fs-5 text-black-white-50"></i></span>
+                                <span>Harirampur,Manikganj</span>
+                            </li>
+                            <li class="col-12 col-md-6 d-flex justify-content-start mb-3">
+                                <span class="border-end border-tomato pe-3 me-2"><i class="fa-solid fa-earth-asia text-black-white-50"></i></span>
+                                <span>Bangladesh</span>
+                            </li>
+                            <li class="col-12 col-md-6 d-flex justify-content-start mb-3">
+                                <span class="border-end border-tomato pe-3 me-2"><i class="fa-solid fa-phone text-black-white-50"></i></span>
+                                <span>+8801889704201</span>
+                            </li>
+                            <li class="col-12 col-md-6 d-flex justify-content-start mb-3">
+                                <span class="border-end border-tomato pe-3 me-2"><i class="fa-solid fa-envelope text-black-white-50"></i></span>
+                                <span>freelancersk216@gmail.com</span>
+                            </li>
+                            <li class="col-12 col-md-6 d-flex justify-content-start mb-3">
+                                <span class="border-end border-tomato pe-3 me-2"><i class="fa-solid fa-clock text-black-white-50"></i></span>
+                                <span>available</span>
+                            </li>
+                        </ul>
+                        <div>
+                            <a href="https://wa.me/message/KQJ4SS4LV333H1" target="_blank" class="btn btn-tomato">Contact With Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="container py-5">
+            <div class="row pb-5">
+                <h1 class="text-uppercase text-center fw-900 section-title mb-3">My service</h1>
+                <div class="about-name justify-content-center"></div>
+                <p class="col-12 col-md-10 col-lg-6 text-black-white-50 text-center px-5 mx-auto my-3">
+                    Here are few services I've provide. Want to get more?
+                    <a href="#contact">Contact</a>
+                </p>
+            </div>
+            <div class="row justify-content-evenly my-5">
+                <div class="col-12 col-md-4 overflow-hidden mb-5">
+                    <div class="card bg-transparent rounded-0 border-0 border-end">
+                        <div class="card-body services-startToend-hide pe-3" data-aos="fade-right" data-aos-duration="2000">
+                            <h5 class="card-title fw-900"><i class="fa-solid fa-signature fs-2 me-1 me-lg-3"></i>Wordpress Designer</h5>
+                            <p class="card-text text-black-white-50">
+                                Manage your website using the web's most popular content management system.
+                            </p>
+                            <a href="#contact" class="card-link contactBtn border-0 bg-transparent d-flex align-items-center">
+                  Hire me <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 overflow-hidden mb-5">
+                    <div class="card bg-transparent rounded-0 border-0 border-end">
+                        <div class="card-body services-startToend-hide pe-3" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                            <h5 class="card-title fw-900"><i class="fa-solid fa-code fs-2 me-1 me-lg-3"></i>Web Desinger</h5>
+                            <p class="card-text text-black-white-50">
+                                Responsive websites built for an optimal user experience that achieves your business goals.
+                            </p>
+                            <a href="#contact" class="card-link contactBtn border-0 bg-transparent d-flex align-items-center">
+                  Hire me <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 overflow-hidden mb-5">
+                    <div class="card bg-transparent rounded-0 border-0">
+                        <div class="card-body services-startToend-hide" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                            <h5 class="card-title fw-900"><i class="fa-solid fa-database fs-2 me-1 me-lg-3"></i>Web Developer</h5>
+                            <p class="card-text text-black-white-50">
+                                From corporate website development, e-commerce, custom web applications and product configurators, our code is intelligent.
+                            </p>
+                            <a href="#contact" class="card-link contactBtn border-0 bg-transparent d-flex align-items-center">
+                  Hire me <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="protfolio">
+        <div class="container py-5">
+            <div class="row pb-0 pb-lg-5">
+                <h1 class="text-uppercase text-center fw-900 section-title mb-3">Protfolio</h1>
+                <div class="about-name justify-content-center"></div>
+                <p class="col-12 col-md-10 col-lg-6 text-black-white-50 text-center px-5 mx-auto my-3">
+                    Here are a few past design projects I've worked on. Want to see more?
+                    <a href="#contact">Contact</a>
+                </p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-4 protfolio-card overflow-hidden mb-3">
+                    <div class="protfolio-wapper w-100 h-100 position-relative protfolio-bottomTotop-hide" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200">
+                        <div class="position-absolute top-0 bottom-0 start-0">
+                            <img src="asset/images/protfolio2.png" class="w-100 h-100 rounded-3 protfolio-card-img" />
+                        </div>
+                        <div class="d-flex flex-column gap-3 justify-content-center protfolio-card-hover position-absolute top-0 w-100 h-100 rounded-3">
+                            <span class="fs-4 fw-bold text-center text-white">Ticket Sales</span>
+                            <div class="d-flex justify-content-center"><a href="https://ticketbae.com/" class="btn btn-tomato">Visit Here</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 protfolio-card overflow-hidden">
+                    <div class="protfolio-wapper w-100 h-100 position-relative protfolio-bottomTotop-hide mb-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                        <div class="position-absolute top-0 bottom-0 start-0">
+                            <img src="asset/images/protfolio1.png" class="w-100 h-100 rounded-3 protfolio-card-img" />
+                        </div>
+                        <div class="d-flex flex-column gap-3 justify-content-center protfolio-card-hover position-absolute top-0 w-100 h-100 rounded-3">
+                            <span class="fs-4 fw-bold text-center text-white">Web Design</span>
+                            <div class="d-flex justify-content-center"><a href="https://railway.app/" class="btn btn-tomato">Visit Here</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 protfolio-card overflow-hidden mb-3">
+                    <div class="protfolio-wapper w-100 h-100 position-relative protfolio-bottomTotop-hide" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                        <div class="position-absolute top-0 bottom-0 start-0">
+                            <img src="asset/images/protfolio3.png" class="w-100 h-100 rounded-3 protfolio-card-img" />
+                        </div>
+                        <div class="d-flex flex-column gap-3 justify-content-center protfolio-card-hover position-absolute top-0 w-100 h-100 rounded-3">
+                            <span class="fs-4 fw-bold text-center text-white">NFT Website</span>
+                            <div class="d-flex justify-content-center"><a href="https://pancakeswap.finance/" class="btn btn-tomato">Visit Here</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 protfolio-card overflow-hidden mb-3">
+                    <div class="protfolio-wapper w-100 h-100 position-relative protfolio-bottomTotop-hide" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="100">
+                        <div class="position-absolute top-0 bottom-0 start-0">
+                            <img src="asset/images/protfolio4.png" class="w-100 h-100 rounded-3 protfolio-card-img" />
+                        </div>
+                        <div class="d-flex flex-column gap-3 justify-content-center protfolio-card-hover position-absolute top-0 w-100 h-100 rounded-3">
+                            <span class="fs-4 fw-bold text-center text-white">NFT Website</span>
+                            <div class="d-flex justify-content-center"><a href="http://mrsk.unaux.com/project/asgard/?i=1" class="btn btn-tomato">Visit Here</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 protfolio-card overflow-hidden mb-3">
+                    <div class="protfolio-wapper w-100 h-100 position-relative protfolio-bottomTotop-hide" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+                        <div class="position-absolute top-0 bottom-0 start-0">
+                            <img src="asset/images/protfolio5.png" class="w-100 h-100 rounded-3 protfolio-card-img" />
+                        </div>
+                        <div class="d-flex flex-column gap-3 justify-content-center protfolio-card-hover position-absolute top-0 w-100 h-100 rounded-3">
+                            <span class="fs-4 fw-bold text-center text-white">Investment Website</span>
+                            <div class="d-flex justify-content-center"><a href="https://loan.padikash.com/" class="btn btn-tomato">Visit Here</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 protfolio-card overflow-hidden mb-3">
+                    <div class="protfolio-wapper w-100 h-100 position-relative protfolio-bottomTotop-hide" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="100">
+                        <div class="position-absolute top-0 bottom-0 start-0">
+                            <img src="asset/images/protfolio6.png" class="w-100 h-100 rounded-3 protfolio-card-img" />
+                        </div>
+                        <div class="d-flex flex-column gap-3 justify-content-center protfolio-card-hover position-absolute top-0 w-100 h-100 rounded-3">
+                            <span class="fs-4 fw-bold text-center text-white">Laundry Website</span>
+                            <div class="d-flex justify-content-center"><a href="https://meralaundry.in/" class="btn btn-tomato">Visit Here</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="showOff">
+        <div class="showOff-content w-100 h-100 position-relative">
+            <div class="showOff-top-shadow position-absolute top-0"></div>
+            <div class="showOff-bottom-shadow position-absolute bottom-0"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 d-flex flex-column align-items-center">
+                        <span class="showOff-title fw-600 text-white-50 text-center">Jobs Completed</span>
+                        <span class="showOff-quantity text-white fw-900">35</span>
+                    </div>
+                    <div class="col-3 d-flex flex-column align-items-center">
+                        <span class="showOff-title fw-600 text-white-50 text-center">On Time project</span>
+                        <span class="showOff-quantity text-white fw-900">100%</span>
+                    </div>
+                    <div class="col-3 d-flex flex-column align-items-center">
+                        <span class="showOff-title fw-600 text-white-50 text-center mb-3 mb-md-0">On Budget</span>
+                        <span class="showOff-quantity text-white fw-900">100%</span>
+                    </div>
+                    <div class="col-3 d-flex flex-column align-items-center">
+                        <span class="showOff-title fw-600 text-white-50 text-center">Repeat Hire Rate</span>
+                        <span class="showOff-quantity text-white fw-900">40%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container py-5">
+            <div class="row">
+                <h1 class="text-uppercase text-center fw-900 section-title mb-3">My Skills</h1>
+                <div class="about-name justify-content-center"></div>
+                <p class="col-12 col-md-10 col-lg-6 text-black-white-50 text-center px-5 mx-auto my-3">
+                    Creative brand, website design and development studio that can bring your online business dreams to life
+                </p>
+            </div>
+            <div class="row skills-show">
+                <div class="col-lg-12 col-12">
+                    <div class="row mt-5">
+                        <div class="col-12 mx-auto my-5">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="circle_percent" data-percent="95">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">HTML</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="circle_percent" data-percent="85">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">CSS</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="circle_percent" data-percent="88">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">BOOTSTRAP</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="90">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">TAILWIND CSS</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="77">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">JAVASCRIPT</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="80">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">J-QUERY</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="75">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">VUE JS</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="0">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">REACT JS</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="65">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">NODE JS</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="68">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">EXPRESS JS</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="78">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">PHP</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="80">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">LARAVEL</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="88">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">MySQL</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="82">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">MONGODB</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="30">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">WORDPESS</h4>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-10 mx-auto d-grid justify-content-center mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <div class="circle_percent" data-percent="92">
+                                        <div class="circle_inner">
+                                            <div class="round_per"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="fw-900 text-black-white text-center">LOGO DESGIN</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-6 col-md-4 col-lg-3 mx-auto mt-5">
+                            <a href="asset/CV/Shekh_md_mohosin_cv.png" class="w-100 btn btn-tomato mt-3" download>Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="position-relative">
+        <div class="reviews-top-shadow position-absolute top-0"></div>
+        <div class="reviews-bottom-shadow position-absolute bottom-0"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper mySwiper w-100 h-100 position-relative py-5" data-aos="zoom-out" data-aos-duration="2000">
+                        <div class="position-absolute top-0 start-0">
+                            <i class="fa-solid fa-quote-left fs-1 text-tomato"></i>
+                        </div>
+                        <div class="position-absolute bottom-0 end-0">
+                            <i class="fa-solid fa-quote-right fs-1 text-tomato"></i>
+                        </div>
+                        <div class="container swiper-wrapper">
+                            <div class="row swiper-slide bg-transparent">
+                                <div class="col-4 d-flex justify-content-center">
+                                    <div class="reviewer">
+                                        <img src="asset/images/nick.jpg" class="w-100 h-100" />
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="review w-100">
+                                        <div class=""></div>
+                                        <div class="text-start">
+                                            <h6 class="text-black-white text-capitalize fw-900">Front End Developer with skills in advanced skills in bootstrap</h6>
+                                            <p class="text-black-white-50 fs-6">
+                                                This is the first project we are working on and he has been excellent. He is always trying his best to get the job done to my needs! I am happy to work with him on many more projects.
+                                            </p>
+                                        </div>
+                                        <div class="d-flex gap-3">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/2560px-Flag_of_Trinidad_and_Tobago.svg.png" class="reviewer-region" />
+                                            <h6 class="fw-900">Nicholas S.</h6>
+                                            <span class="text-black-white-50 review-time">1 year ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row w-100 swiper-slide bg-transparent">
+                                <div class="col-4 d-flex justify-content-center">
+                                    <div class="reviewer">
+                                        <img src="asset/images/user_avatar.jpg" class="w-100 h-100" />
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="review w-100">
+                                        <div class=""></div>
+                                        <div class="text-start">
+                                            <h6 class="text-black-white text-capitalize fw-900">loan website (frontend only)</h6>
+                                            <p class="text-black-white-50 fs-6">
+                                                Excelent guy, did a great job. I will certainly be keeping in contact with him for more work in the future.
+                                            </p>
+                                        </div>
+                                        <div class="d-flex gap-3">
+                                            <img src="asset/images/Ireland_flag.png" class="reviewer-region" />
+                                            <h6 class="fw-900">Lanre T.</h6>
+                                            <span class="text-black-white-50 review-time">5 months ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row swiper-slide bg-transparent">
+                                <div class="col-4 d-flex justify-content-center">
+                                    <div class="reviewer">
+                                        <img src="asset/images/pankaj.webp" class="w-100 h-100" />
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="review w-100">
+                                        <div class=""></div>
+                                        <div class="text-start">
+                                            <h6 class="text-black-white text-capitalize fw-900">Front end developer required</h6>
+                                            <p class="text-black-white-50 fs-6">Excellent person with great knowledge , hardworking must hire him.</p>
+                                        </div>
+                                        <div class="d-flex gap-3">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAmVBMVEX/mTMSiAf/////lycAgQAAAIgAAIUAAH4AAIIAAIMAAHwAAHPi4u+kpMvz8/kAAHjn5/Lt7fXd3ey5uddPT6GZmcWDg7n6+v7Ly+HIyOJERJxlZao+PponJ5L29vy0tNbW1uggIJCfn8iGhrsYGJBNTaB2drQQEIx+fripqc5ra62QkMBXV6QiIpFfX6i+vtwyMpw6Opg1NZe0gadDAAAEvUlEQVR4nO3ba3OiSBiG4UzvdDcip8YDiAdQZAIxExP//4/btzHjZH1Nze6HpVPlc1Ul0eiH9g7Q2JKHBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA/+gvuPYg4BqacGjCoQmHJhyacF+hSTI5LFd7uV8tD5PE9WDEF2gSHNbaGyklpVRq5Omfh8D1kBw3qaZ6pCiGVFrr/oYc6SZ3OyinTZIpdZCeevnhNyY1jf/jRXm0vejG6S7kssnObhmeNxMbcTSiEuZIt2aeZ7eancNxOWzy7NFrn3cnI/p9pbTfcmFO3ZxaeVN3A3PWJNrS5lAEmb3d5wgvt7KgoMe2kauhuWoSPdK2QHvIwt5ZpPTtQF/p+S7tVbQNPbqK4qhJRluJ17VGZB3di2yPF/o62AxdJkzbUZRt5mZwjpo0lOTY3wrtFGMPHq/vP5N+JxJHiuLomOKmycyTXinOUewLX1IYSTmW7/cpiSjpOTMno3PSJNA049TnQ4gIae8J6cVrSkWbSNdvJvRITbOPdnJO66RJo1QzM3RjaY8YMhLVVmR+JraViGhzEZn9vZnZp7kYnosmCy31+UR180oH1a4QWWyiODJxJhqajaPTpn80oee5OM130WSlVL3pZ11hJO0daiLWITUJ12KiaM+Spn9ssamVKhyMz0GTVNsDrOi6/o5fiVKLdmVis2qFLkXl27OV/rhCh1mdDj9AB01qmoftnz+Z2ir5+Cjk08JP49RfPElxHNvdpZvao2vhyVE9/AAdNHmkOfZ8ihpK2l4m4y4fJ7ryKp2M8248oe1D7vrHDc3Z++EHOHwTmojlr9tRISciHB/beZ3v87puj+OdmMiV+fUE6WI6Hr5J6amnaFEuzptK6av8GAfrKmzDah3Ex/zR798Iik1e5tGT8srBRzh8k7lSLf1ID9NlWNF5yHLcBuugLd6KNl0H87E9N0m7p+Zgj66tUvPBRzh8k2cl/fNZRzLbxut2kczXaWFXIEdFsG6TfH6KH2fnPSb3pXoefITDN3lVanpZBTDhytd12o6kNWrTg/ZPu8vKYzRV6nXwEQ7fRErvkiSLIpNWeViovokqdnmVmii6LBJE3u8D8mCcNEmqYzhbnqT2/TiOvX37Js/e6q1Hv4l9LX8+H8IyT++mCbaTK1fHkzccTz7OO8Hveafp550mWM/vct6Zn085cH7ywe3z2JTOY9O7PY/F+50b9vS++PyiP3tfPLm398WiHv15/aTs109Wd7N+gnW2G4p/uR6b3c96rMiv1u2bT9btgztat+8/3zmY989xbn6+I+7t8x18DngLPi++YYrrChhcf3IDrlO6IdqOpCpSXM/2D/11j234yXWPwy+bXOD6WO5rXkc9vdvrqAWut78N/5dx08f/3zF/fvr/7is0+WrQhEMTDk04NOHQhHv4DtcevsE1NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMTDk04NOHQhEMT7m/cNifkUwM0UQAAAABJRU5ErkJggg=="
+                                                class=" reviewer-region" />
+                                            <h6 class="fw-900">Pankaj P.</h6>
+                                            <span class="text-black-white-50 review-time">9 months ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d21417.940192142985!2d90.03832521586789!3d23.765159029425032!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1660251421983!5m2!1sen!2sbd" width="100%" height="100%" style="border:
+                        0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="position-absolute top-0 bottom-0"></iframe>
+        <div class="container h-100">
+            <div class="row justify-content-end h-100">
+                <div class="col-12 col-md-7 col-lg-6 contact-wapper d-flex align-items-center">
+                    <div class="contact-box rounded-3 shadow-lg px-4 py-5" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <div class="row">
+                            <div class="mb-4 pb-3">
+                                <h2 class="text-uppercase text-black-white about-name">Get in touch</h2>
+                                <p class="text-black-white-50">Always available for freelancing if the right project comes along, Feel free to contact me.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- <form action="https://formsubmit.co/80981db4ff0f2011c06eb725ddd0f126" method="POST" class="row"> -->
+                                <form action="#" method="POST" class="row contactForm">
+                                    <div class="col-6 form-group">
+                                        <input type="text" id="name" placeholder="Name" class="w-100 form-control" required/>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="email" id="email" placeholder="Email" class="w-100 form-control" required/>
+                                    </div>
+                                    <div class="col-12 my-3">
+                                        <input type="text" id="subject" placeholder="Subject" class="w-100 form-control" required/>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea id="message" cols="37" rows="6" placeholder="Write your message..." class="w-100 form-control" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="w-50 btn btn-tomato mt-3">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container h-100">
+            <div class="h-100 row align-items-center">
+                <div class="col-8 col-md-6 copyright">
+                    <span>Copyright © 2022 Mr SK, All Rights Reserved.</span>
+                </div>
+                <div class="col-4 col-md-6">
+                    <div class="d-flex justify-content-end gap-3">
+                        <a href="https://www.facebook.com/mr.sk.216" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/message/KQJ4SS4LV333H1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://twitter.com/ShekhMo69036284" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/skakash.216/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shekh-md-mohsin-3488a9214/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://t.me/mrsk5278" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://github.com/mrsk216" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- bootstrap JS -->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+    <!-- textAnimation JS -->
+    <script src="asset/js/textAnimation.js"></script>
+    <!-- Smtp JS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="asset/js/smtp.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {});
+        var swiperImg = new Swiper(".mySwiperImg", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
+    <!-- AOS JS -->
+    <script type="text/javascript" src="asset/js/aos.js"></script>
+
+    <script type="text/javascript" src="asset/js/hero_cursor.js"></script>
+    <!-- Main JS -->
+    <script type="text/javascript" src="asset/js/main.js"></script>
+</body>
+
+</html>
