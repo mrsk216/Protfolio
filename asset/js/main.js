@@ -17,9 +17,9 @@ $('.serviceBtn').on('click', function() {
         scrollTop: $('#service').offset().top,
     });
 })
-$('.protfolioBtn').on('click', function() {
+$('.portfolioBtn').on('click', function() {
     $('html, body').animate({
-        scrollTop: $('#protfolio').offset().top,
+        scrollTop: $('#portfolio').offset().top,
     });
 })
 $('.skillBtn').on('click', function() {

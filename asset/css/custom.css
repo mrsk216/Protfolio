@@ -490,33 +490,33 @@ a:hover {
 }
 
 
-/*Protfolio*/
+/*Portfolio*/
 
-#protfolio {
+#portfolio {
     width: 100%;
     padding: 5% 0;
     box-shadow: 0 .5rem 1rem var(--section-bottom-shadow)!important;
 }
 
-.protfolio-card {
+.portfolio-card {
     height: 250px;
 }
 
-.protfolio-card-img {
+.portfolio-card-img {
     filter: grayscale(100%);
 }
 
-.protfolio-card:hover .protfolio-card-img {
+.portfolio-card:hover .portfolio-card-img {
     filter: brightness(0.3);
 }
 
-.protfolio-card-hover {
+.portfolio-card-hover {
     z-index: 1;
     transition: .5s;
     transform: scaleY(0);
 }
 
-.protfolio-card:hover .protfolio-card-hover {
+.portfolio-card:hover .portfolio-card-hover {
     transform: scaleY(1);
 }
 
