@@ -116,6 +116,7 @@ a:hover {
     border: none !important;
     color: #fff;
     padding: 8px 25px;
+    z-index: 1;
 }
 
 .btn-tomato:hover {
