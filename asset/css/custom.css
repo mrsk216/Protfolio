@@ -409,6 +409,10 @@ a:hover {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
 }
 
+#about a {
+    text-decoration: none;
+}
+
 .creator-img-wapper {
     transform: rotate(-10deg);
     border-radius: 5%;
