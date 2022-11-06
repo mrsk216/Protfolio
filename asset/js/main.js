@@ -1,5 +1,18 @@
 //Pre Loader
-setTimeout(function() { $('.pre-loader-wapper').fadeOut(); }, 2000);
+// setTimeout(function() { $('.pre-loader-wapper').fadeOut(); }, 2000);
+document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector(
+            "body").style.visibility = "hidden";
+        document.querySelector(
+            ".pre-loader-wapper").style.visibility = "visible";
+    } else {
+        document.querySelector(
+            ".pre-loader-wapper").style.display = "none";
+        document.querySelector(
+            "body").style.visibility = "visible";
+    }
+};
 
 //Nav Menu
 $('.homeBtn').on('click', function() {
