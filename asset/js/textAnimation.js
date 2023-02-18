@@ -1,5 +1,5 @@
 //Text animation
-const words = ["Wordpress Deginer", "Web Designer", "Web Developer"];
+const words = ["Full Stack Developer", "Wordpress Deginer", "Graphics Designer"];
 let i = 0;
 let timer;
 
@@ -12,7 +12,7 @@ function typingEffect() {
             deletingEffect();
             return false;
         };
-        timer = setTimeout(loopTyping, 500);
+        timer = setTimeout(loopTyping, 200);
     };
     loopTyping();
 };

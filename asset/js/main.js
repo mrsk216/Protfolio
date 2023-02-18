@@ -116,6 +116,6 @@ $(".theme").on('click', function() {
 });
 
 //Desable Context Menu
-$(document).bind("contextmenu", function(e) {
-    return false;
-});
+// $(document).bind("contextmenu", function(e) {
+//     return false;
+// });
