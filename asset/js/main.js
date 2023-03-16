@@ -1,5 +1,5 @@
 //Pre Loader
-// setTimeout(function() { $('.pre-loader-wapper').fadeOut(); }, 2000);
+setTimeout(function() { $('.pre-loader-wapper').fadeOut(); }, 2000);
 document.onreadystatechange = function() {
     if (document.readyState !== "complete") {
         document.querySelector(
