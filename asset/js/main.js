@@ -1,5 +1,7 @@
 //Pre Loader
-
+$(window).load(function(){
+	$('.pre-loader-wapper').fadeOut();
+});
 
 //Nav Menu
 $('.homeBtn').on('click', function() {
