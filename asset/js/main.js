@@ -1,6 +1,8 @@
 //Pre Loader
 $(window).load(function(){
-	alert("working");
+	$(window).load(function(){
+		$('.pre-loader-wapper').fadeOut(1000);
+	});
 });
 
 //Nav Menu
