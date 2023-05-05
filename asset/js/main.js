@@ -1,8 +1,6 @@
 //Pre Loader
-$(window).load(function(){
-	$(window).load(function(){
-		$('.pre-loader-wapper').fadeOut(1000);
-	});
+$(window).on("load", function() {
+    $('#preLoaderWapper').fadeOut();
 });
 
 //Nav Menu
@@ -108,5 +106,5 @@ $(".theme").on('click', function() {
 
 //Desable Context Menu
 $(document).bind("contextmenu", function(e) {
-   return false;
+    return false;
 });
